@@ -3,4 +3,6 @@ Simulador de chat de atendimento automatizado com respostas baseadas em palavras
 
 ## Demonstração
 
+https://github.com/user-attachments/assets/df3fcf73-b2ce-4eb8-83e2-b15305ca1ec2
+
 
