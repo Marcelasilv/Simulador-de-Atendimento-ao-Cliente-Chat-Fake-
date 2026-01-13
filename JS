@@ -1,0 +1,9 @@
+function send() {
+  const text = msg.value.toLowerCase();
+  let response = "Não entendi, pode repetir?";
+  if (text.includes("horário")) response = "Atendemos das 8h às 18h.";
+  if (text.includes("oi")) response = "Olá! Como posso ajudar?";
+  chat.innerHTML += `<p><b>Você:</b> ${msg.value}</p>`;
+  chat.innerHTML += `<p><b>Bot:</b> ${response}</p>`;
+  msg.value = "";
+}
